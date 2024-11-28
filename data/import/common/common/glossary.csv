@@ -127,6 +127,8 @@ page.checkout.shipment.shipping_method_heading,Lieferart wählen,de_DE
 page.checkout.shipment.shipping_method_heading,Shipping Method,en_US
 page.checkout.shipment.shipment_group_heading,Lieferung %current% von %total%,de_DE
 page.checkout.shipment.shipment_group_heading,Shipment %current% of %total%,en_US
+page.checkout.order_name.label,Name der Bestellung,de_DE
+page.checkout.order_name.label,Order name,en_US
 shipment.standart.name,Standard,de_DE
 shipment.standart.name,Standard,en_US
 shipment.express.name,Express,de_DE
@@ -821,6 +823,10 @@ checkout.step.payment.title,Payment,en_US
 checkout.step.payment.title,Zahlung,de_DE
 checkout.step.summary.title,Confirm,en_US
 checkout.step.summary.title,Bestätigen,de_DE
+checkout.step.order_name.title,Order name,en_US
+checkout.step.order_name.title,Bestellungsname,de_DE
+checkout.step.order_name,Next,en_US
+checkout.step.order_name,Weiter,de_DE
 checkout.step.shipment,Next,en_US
 checkout.step.shipment,Weiter,de_DE
 checkout.step.address.select_address,Select an address,en_US
