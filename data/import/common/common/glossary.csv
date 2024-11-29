@@ -129,6 +129,8 @@ page.checkout.shipment.shipment_group_heading,Lieferung %current% von %total%,de
 page.checkout.shipment.shipment_group_heading,Shipment %current% of %total%,en_US
 page.checkout.order_name.label,Name der Bestellung,de_DE
 page.checkout.order_name.label,Order name,en_US
+page.checkout.order_name.help,Maximal 30 Zeichen. Nur Kleinbuchstaben (a-z) und Ziffern (0-9) erlaubt.,de_DE
+page.checkout.order_name.help,Maximum 30 characters. Only lowercase letters (a-z) and numbers (0-9) are allowed.,en_US
 shipment.standart.name,Standard,de_DE
 shipment.standart.name,Standard,en_US
 shipment.express.name,Express,de_DE
@@ -825,6 +827,8 @@ checkout.step.summary.title,Confirm,en_US
 checkout.step.summary.title,Bestätigen,de_DE
 checkout.step.order_name.title,Order name,en_US
 checkout.step.order_name.title,Bestellungsname,de_DE
+checkout.step.order_name.text,Enter a name for your order here. The name will be used to identify your order.,en_US
+checkout.step.order_name.text,"Geben Sie hier einen Namen für Ihre Bestellung an. Dieser Name wird verwendet, um Ihre Bestellung zu identifizieren.",de_DE
 checkout.step.order_name,Next,en_US
 checkout.step.order_name,Weiter,de_DE
 checkout.step.shipment,Next,en_US
@@ -2211,6 +2215,8 @@ validation.email,This value is not a valid email address.,en_US
 validation.email,Dieser Wert ist keine gültige E-Mail-Adresse.,de_DE
 validation.choice,This value is not valid,en_US
 validation.choice,Dieser Wert ist nicht gültig,de_DE
+validation.lowercase_numbers,Only lowercase letters (a-z) and numbers (0-9) are allowed.,en_US
+validation.lowercase_numbers,Es sind nur Kleinbuchstaben (a-z) und Zahlen (0-9) erlaubt,de_DE
 shopping_list.cart.items_add.failed,Items could not be added to the List,en_US
 shopping_list.cart.items_add.failed,Artikel konnten der Liste nicht hinzugefügt werden,de_DE
 shopping_list.cart.items_add.success,Items were added to the List,en_US

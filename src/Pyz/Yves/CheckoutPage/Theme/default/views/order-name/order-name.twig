@@ -39,5 +39,12 @@
             },
         },
     } only %}
+
+    {% block description %}
+        <div class="{{ config.name }}__description">
+            {{ 'checkout.step.order_name.text' | trans }}
+        </div>
+    {% endblock %}
+
     {% endembed %}
 {% endblock %}
