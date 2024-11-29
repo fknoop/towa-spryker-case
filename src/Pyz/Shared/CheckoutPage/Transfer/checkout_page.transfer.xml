@@ -5,4 +5,8 @@
         <property name="orderName" type="string"/>
     </transfer>
 
+    <transfer name="Order">
+        <property name="orderName" type="string"/>
+    </transfer>
+
 </transfers>
