@@ -10,6 +10,9 @@ use SprykerShop\Yves\CheckoutPage\Process\Steps\AbstractBaseStep;
 
 class OrderNameStep extends AbstractBaseStep implements StepWithBreadcrumbInterface
 {
+    /**
+     * @var string
+     */
     public const STEP_ORDER_NAME_TITLE_GLOSSARY_ENTRY = 'checkout.step.orderName.title';
 
     /**
