@@ -3431,6 +3431,8 @@ customer.order_history.search_type.all,All,en_US
 customer.order_history.search_type.all,Alle,de_DE
 customer.order_history.search_type.orderReference,Order Reference,en_US
 customer.order_history.search_type.orderReference,Bestellnummer,de_DE
+customer.order_history.search_type.orderName,Order Name,en_US
+customer.order_history.search_type.orderName,Bestellungsname,de_DE
 customer.order_history.search_type.itemName,Product Name,en_US
 customer.order_history.search_type.itemName,Produktname,de_DE
 customer.order_history.search_type.itemSku,Product SKU,en_US
