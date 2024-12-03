@@ -23,31 +23,31 @@ class OrderNameForm extends AbstractType
     /**
      * @var string
      */
-    protected const GLOSSARY_LABEL_ORDER_NAME = 'page.checkout.order_name.label';
+    public const GLOSSARY_LABEL_ORDER_NAME = 'page.checkout.order_name.label';
     /**
      * @var string
      */
-    protected const GLOSSARY_VALIDATION_NOT_BLANK_MESSAGE = 'validation.not_blank';
+    public const GLOSSARY_VALIDATION_NOT_BLANK_MESSAGE = 'validation.not_blank';
     /**
      * @var string
      */
-    protected const GLOSSARY_VALIDATION_MAX_LENGTH_MESSAGE = 'validation.max_length.plural';
+    public const GLOSSARY_VALIDATION_MAX_LENGTH_MESSAGE = 'validation.max_length.plural';
     /**
      * @var string
      */
-    protected const GLOSSARY_VALIDATION_LOWERCASE_NUMBERS_MESSAGE = 'validation.lowercase_numbers';
+    public const GLOSSARY_VALIDATION_LOWERCASE_NUMBERS_MESSAGE = 'validation.lowercase_numbers';
     /**
      * @var string
      */
-    protected const GLOSSARY_HELP_TEXT_ORDER_NAME = 'page.checkout.order_name.help';
+    public const GLOSSARY_HELP_TEXT_ORDER_NAME = 'page.checkout.order_name.help';
     /**
      * @var int
      */
-    protected const VALIDATION_MAX_LENGTH = 30;
+    public const VALIDATION_MAX_LENGTH = 30;
     /**
      * @var string
      */
-    protected const VALIDATION_REGEX_PATTERN = '/^[a-z0-9]+$/';
+    public const VALIDATION_REGEX_PATTERN = '/^[a-z0-9]+$/';
 
     /**
      * @return string
