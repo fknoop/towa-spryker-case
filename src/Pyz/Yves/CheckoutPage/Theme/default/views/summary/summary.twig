@@ -2,9 +2,18 @@
 
 {% define data = {
     stepNumder: 5,
+    orderName: _view.quoteTransfer.orderName,
 } %}
 
 {% block content %}
+    {% include molecule('summary-item-box', 'CheckoutPage') with {
+        data: {
+            title: 'checkout.step.order_name.title' | trans,
+            text: data.orderName,
+            editUrl: 'checkout-order-name',
+            canEdit: true,
+        },
+    } only %}
     {% for shipmentGroup in data.shipmentGroups %}
         <article class="grid grid--gap spacing-bottom spacing-bottom--big">
             <h3 class="col col--sm-12 title title--second spacing-bottom spacing-bottom--small">
