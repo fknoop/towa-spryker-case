@@ -313,7 +313,8 @@ $address-form-width: rem(710);
             margin: 0;
         }
 
-        #{$name}__field, #{$name}__description {
+        #{$name}__field,
+        #{$name}__description {
             padding: 0 0 rem(16);
 
             @include helper-breakpoint-media-min($lg) {

@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * This file is part of the Spryker Commerce OS.
+ * For full license information, please view the LICENSE file that was distributed with this source code.
+ */
+
 declare(strict_types=1);
 
 namespace PyzTest\Yves\CheckoutPage\Form;
@@ -22,7 +27,13 @@ use Symfony\Component\Validator\Validation;
  */
 class OrderNameFormTest extends TypeTestCase
 {
+    /**
+     * @var string
+     */
     public const VALID_ORDER_NAME = 'validname123';
+    /**
+     * @var string
+     */
     public const INVALID_ORDER_NAME = 'InvalidName123#';
 
     /**
@@ -144,7 +155,7 @@ class OrderNameFormTest extends TypeTestCase
     }
 
     /**
-     * @return \Symfony\Component\Form\Extension\Validator\ValidatorExtension[]
+     * @return array<\Symfony\Component\Form\Extension\Validator\ValidatorExtension>
      */
     protected function getExtensions(): array
     {

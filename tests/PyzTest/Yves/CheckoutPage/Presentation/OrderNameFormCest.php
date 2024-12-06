@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * This file is part of the Spryker Commerce OS.
+ * For full license information, please view the LICENSE file that was distributed with this source code.
+ */
+
 declare(strict_types=1);
 
 namespace PyzTest\Yves\CheckoutPage\Presentation;
@@ -20,12 +25,33 @@ use PyzTest\Yves\CheckoutPage\CheckoutPagePresentationTester;
  */
 class OrderNameFormCest
 {
+    /**
+     * @var string
+     */
     public const GLOSSARY_ORDER_NAME_TITLE = 'checkout.step.order_name.title';
+    /**
+     * @var string
+     */
     public const CATEGORY_URL = '/en/stationery';
+    /**
+     * @var string
+     */
     public const CHECKOUT_URL = '/checkout';
+    /**
+     * @var string
+     */
     public const SHIPMENT_URL = '/checkout/shipment';
+    /**
+     * @var string
+     */
     public const ORDER_NAME_URL = '/checkout/order-name';
+    /**
+     * @var string
+     */
     public const VALID_ORDER_NAME = 'validname123';
+    /**
+     * @var string
+     */
     public const INVALID_ORDER_NAME = 'InvalidName123#';
 
     public LocaleTransfer $locale;
