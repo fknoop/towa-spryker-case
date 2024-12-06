@@ -8,6 +8,7 @@
     title: required,
     method: '',
     address: {},
+    text: '',
     iconName: '',
     editUrl: '',
     canEdit: false,
@@ -42,6 +43,12 @@
                 },
             } only %}
         {% endif %}
+    {% endif %}
+
+    {% if data.text %}
+        <p>
+            {{ data.text }}
+        </p>
     {% endif %}
 
     {% if data.address %}
