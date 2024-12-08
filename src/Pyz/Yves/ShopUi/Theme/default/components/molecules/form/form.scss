@@ -313,7 +313,7 @@ $address-form-width: rem(710);
             margin: 0;
         }
 
-        #{$name}__field {
+        #{$name}__field, #{$name}__description {
             padding: 0 0 rem(16);
 
             @include helper-breakpoint-media-min($lg) {
@@ -356,6 +356,11 @@ $address-form-width: rem(710);
                 border-color: $setting-color-main;
                 box-shadow: 0 0 0 rem(1) $setting-color-main;
             }
+        }
+
+        .help-text {
+            text-align: right;
+            font-size: map_get($setting-font-size, small);
         }
     }
 
